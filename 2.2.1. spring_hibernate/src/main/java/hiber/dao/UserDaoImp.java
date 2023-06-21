@@ -10,8 +10,12 @@ import java.util.List;
 @Repository
 public class UserDaoImp implements UserDao {
 
+    private final SessionFactory sessionFactory;
+
     @Autowired
-    private SessionFactory sessionFactory;
+    public UserDaoImp(SessionFactory sessionFactory) {
+        this.sessionFactory = sessionFactory;
+    }
 
     @Override
     public void add(User user) {
@@ -32,17 +36,17 @@ public class UserDaoImp implements UserDao {
 
     @Override
     @SuppressWarnings("unchecked")
-    public List<Car> listCar() {
+    public List<Car> getListUsers() {
         TypedQuery<Car> query = sessionFactory.getCurrentSession().createQuery("from Car");
         return query.getResultList();
     }
 
-@Override
-public void getUserBySeriesAndModel(String model, int series) {
-    String HQL="FROM User u LEFT OUTER JOIN FETCH u.car p WHERE p.series = :series AND p.model = :model";
-    User user = sessionFactory.getCurrentSession().createQuery(HQL, User.class).setParameter("series", series).setParameter("model",model).uniqueResult();
-    System.out.println(user);
+    @Override
+    public void getUserBySeriesAndModel(String model, int series) {
+        String HQL = "FROM User u LEFT OUTER JOIN FETCH u.car p WHERE p.series = :series AND p.model = :model";
+        User user = sessionFactory.getCurrentSession().createQuery(HQL, User.class).setParameter("series", series).setParameter("model", model).uniqueResult();
+        System.out.println(user);
 
-}
+    }
 
 }
