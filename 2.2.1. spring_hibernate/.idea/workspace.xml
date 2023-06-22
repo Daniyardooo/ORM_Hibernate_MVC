@@ -4,18 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cecaf6c0-f7d9-4a66-8b15-b6b12b0331cb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hiber/dao/CarDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hiber/dao/CarDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hiber/service/CarService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hiber/service/CarServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+    <list default="true" id="4dc50fc7-3f32-4e63-b3c7-6d5a43f13202" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hiber/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hiber/MainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hiber/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hiber/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hiber/dao/CarDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hiber/dao/CarDaoImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hiber/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hiber/dao/UserDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hiber/dao/UserDaoImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hiber/dao/UserDaoImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hiber/model/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hiber/model/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hiber/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hiber/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hiber/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hiber/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hiber/service/UserServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hiber/service/UserServiceImp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,28 +18,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <excluded-from-favorite>
-      <branch-storage>
-        <map>
-          <entry type="LOCAL">
-            <value>
-              <list>
-                <branch-info repo="$PROJECT_DIR$/.." source="main" />
-              </list>
-            </value>
-          </entry>
-        </map>
-      </branch-storage>
-    </excluded-from-favorite>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
@@ -54,7 +28,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="2RVU9SxIOQ726UtO9VSTBUZEWVG" />
+  <component name="ProjectId" id="2RZCtlslSbOfwL2m4UYEvYFTG3f" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -64,6 +38,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -71,30 +46,15 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="2.2.1. spring_hibernate" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="2.2.1. spring_hibernate" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cecaf6c0-f7d9-4a66-8b15-b6b12b0331cb" name="Changes" comment="" />
-      <created>1687334593109</created>
+      <changelist id="4dc50fc7-3f32-4e63-b3c7-6d5a43f13202" name="Changes" comment="" />
+      <created>1687448436053</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1687334593109</updated>
-      <workItem from="1687334594124" duration="10375000" />
+      <updated>1687448436053</updated>
+      <workItem from="1687448437065" duration="741000" />
     </task>
     <servers />
   </component>
