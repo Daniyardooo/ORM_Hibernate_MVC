@@ -1,12 +1,8 @@
 package Dao;
-
 import Model.Car;
-
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
-
 public class CarDaoImpl implements CarDao {
 
     List<Car> carList;
@@ -18,15 +14,17 @@ public class CarDaoImpl implements CarDao {
     Car car5 = new Car("Tesla", "Y", 116);
 
 
-    public CarDaoImpl(Car car1, Car car2, Car car3, Car car4, Car car5) {
-        Collections.addAll(carList, car1, car2, car3, car4, car5);
-    }
-
     public CarDaoImpl() {
+        carList = new ArrayList<>();
+        carList.add(car1);
+        carList.add(car2);
+        carList.add(car3);
+        carList.add(car4);
+        carList.add(car5);
     }
 
     @Override
     public List<Car> CarsByNumb(int number) {
-        return carList.stream().limit(number).collect(Collectors.toList());
+        return number >= carList.size()? carList : carList.stream().limit(number).collect(Collectors.toList());
     }
 }

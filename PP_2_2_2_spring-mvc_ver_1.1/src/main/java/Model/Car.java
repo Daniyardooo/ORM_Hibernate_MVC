@@ -2,11 +2,11 @@ package Model;
 
 public class Car {
 
-    private String model;
+     String model;
 
-    private String series;
+     String series;
 
-    private int number;
+     int number;
 
     public Car(String model, String series, int number) {
         this.model = model;
@@ -21,5 +21,17 @@ public class Car {
                 ", series='" + series + '\'' +
                 ", number=" + number +
                 '}';
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public String getSeries() {
+        return series;
+    }
+
+    public int getNumber() {
+        return number;
     }
 }
