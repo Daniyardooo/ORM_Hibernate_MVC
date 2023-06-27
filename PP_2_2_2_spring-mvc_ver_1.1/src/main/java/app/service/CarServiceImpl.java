@@ -18,8 +18,8 @@ public class CarServiceImpl implements CarService {
     }
 
 
-    public List<Car> GetCarsByNumb(int number) {
-        return carDao.GetCarsByNumb(number);
+    public List<Car> getCarsByNumber(int number) {
+        return carDao.getCarsByNumber(number);
     }
 
 }

@@ -19,14 +19,14 @@ public class CarController {
 
     @GetMapping(value = "")
     public String printCars(ModelMap model) {
-        model.addAttribute("cars", carService.GetCarsByNumb(5));
+        model.addAttribute("cars", carService.getCarsByNumber(5));
         return "cars";
     }
 
 
     @GetMapping(value = "", params = "count")
-    public String prCarsByNumb(@RequestParam("count") int numb, ModelMap model) {
-        model.addAttribute("cars", carService.GetCarsByNumb(numb));
+    public String printCarsByNumber(@RequestParam("count") int numb, ModelMap model) {
+        model.addAttribute("cars", carService.getCarsByNumber(numb));
         return "cars";
     }
 }

@@ -3,16 +3,15 @@ package app.model;
 import java.util.Objects;
 
 public class Car {
-    String model;
-    String series;
-    int number;
+    private final String model;
+    private final String series;
+    private final int number;
 
     public Car(String model, String series, int number) {
         this.model = model;
         this.series = series;
         this.number = number;
     }
-
 
     public String getModel() {
         return model;
