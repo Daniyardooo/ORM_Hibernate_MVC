@@ -1,11 +1,16 @@
-package Dao;
-import Model.Car;
+package app.dao;
+
+import app.model.Car;
+import org.springframework.stereotype.Repository;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
+
+@Repository
 public class CarDaoImpl implements CarDao {
 
-    List<Car> carList;
+    private final List<Car> carList;
 
     Car car1 = new Car("Tesla", "Plaid", 999);
     Car car2 = new Car("Tesla", "X", 432);
@@ -24,7 +29,7 @@ public class CarDaoImpl implements CarDao {
     }
 
     @Override
-    public List<Car> CarsByNumb(int number) {
-        return number >= carList.size()? carList : carList.stream().limit(number).collect(Collectors.toList());
+    public List<Car> GetCarsByNumb(int number) {
+        return number >= carList.size() ? carList : carList.stream().limit(number).collect(Collectors.toList());
     }
 }
