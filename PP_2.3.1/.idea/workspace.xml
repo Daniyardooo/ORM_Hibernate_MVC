@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="unnamed" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3203471d-dc1a-4e8e-b518-fbe1023ba92f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../PP_2_2_2_spring-mvc_ver_1.1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PP_2_2_2_spring-mvc_ver_1.1/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PP_2_2_2_spring-mvc_ver_1.1/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PP_2_2_2_spring-mvc_ver_1.1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PP_2_2_2_spring-mvc_ver_1.1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PP_2_2_2_spring-mvc_ver_1.1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PP_2_2_2_spring-mvc_ver_1.1/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PP_2_2_2_spring-mvc_ver_1.1/spring-mvc.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PP_2_2_2_spring-mvc_ver_1.1/src/main/java/Dao/CarDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PP_2_2_2_spring-mvc_ver_1.1/src/main/java/Dao/CarDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PP_2_2_2_spring-mvc_ver_1.1/src/main/java/Model/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PP_2_2_2_spring-mvc_ver_1.1/src/main/java/Service/CarService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PP_2_2_2_spring-mvc_ver_1.1/src/main/java/Service/CarServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PP_2_2_2_spring-mvc_ver_1.1/src/main/java/Service/MainApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PP_2_2_2_spring-mvc_ver_1.1/src/main/java/web/config/AppInit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PP_2_2_2_spring-mvc_ver_1.1/src/main/java/web/config/WebConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PP_2_2_2_spring-mvc_ver_1.1/src/main/java/web/controller/CarController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PP_2_2_2_spring-mvc_ver_1.1/src/main/java/web/controller/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PP_2_2_2_spring-mvc_ver_1.1/src/webapp/WEB-INF/pages/cars.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PP_2_2_2_spring-mvc_ver_1.1/src/webapp/WEB-INF/pages/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PP_2_2_2_spring-mvc_ver_1.1/target/Spring_MVC/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PP_2_2_2_spring-mvc_ver_1.1/target/Spring_MVC/WEB-INF/pages/cars.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PP_2_2_2_spring-mvc_ver_1.1/target/Spring_MVC/WEB-INF/pages/index.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2RmSQwZ0WREwGVzYOw5Vf1MslmO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.76" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.76" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="spring-hibernate-jpa-app:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="b618b045-4dd0-4e29-a394-5a710d692253" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="57544" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="spring-hibernate-jpa-app:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3203471d-dc1a-4e8e-b518-fbe1023ba92f" name="Changes" comment="" />
+      <created>1687853757768</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1687853757768</updated>
+      <workItem from="1687853758765" duration="312000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
