@@ -49,7 +49,7 @@ public class UserController {
     }
 
     @GetMapping("/{id}/edit")
-    public String updateUser(Model model, @PathVariable("id") int id) {
+    public String getUpdateUserForm(Model model, @PathVariable("id") int id) {
         model.addAttribute("user", userService.getUserById(id));
         return "update";
     }
@@ -68,5 +68,7 @@ public class UserController {
     public String removeUserById(@PathVariable("id") int id) {
         userService.removeUserById(id);
         return "redirect:/users";
+
     }
+
 }
